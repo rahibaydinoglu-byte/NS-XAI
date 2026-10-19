@@ -1,0 +1,33 @@
+/usr/local/lib/python3.13/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+lgbm {'num_leaves': 31, 'learning_rate': 0.05, 'min_child_samples': 20} val MAE 311.5  cpu 0.7s
+/usr/local/lib/python3.13/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+lgbm {'num_leaves': 63, 'learning_rate': 0.05, 'min_child_samples': 20} val MAE 311.7  cpu 0.7s
+/usr/local/lib/python3.13/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+lgbm {'num_leaves': 31, 'learning_rate': 0.1, 'min_child_samples': 20} val MAE 311.5  cpu 0.4s
+/usr/local/lib/python3.13/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+lgbm {'num_leaves': 63, 'learning_rate': 0.1, 'min_child_samples': 50} val MAE 312.7  cpu 0.5s
+/usr/local/lib/python3.13/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+lgbm {'num_leaves': 127, 'learning_rate': 0.05, 'min_child_samples': 50} val MAE 312.4  cpu 0.7s
+/usr/local/lib/python3.13/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+lgbm {'num_leaves': 15, 'learning_rate': 0.1, 'min_child_samples': 20} val MAE 311.9  cpu 0.3s
+/usr/local/lib/python3.13/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+lgbm seed 0 {'seed': 0, 'cpu_train_s': 0.5224131419999996, 'wall_train_s': 0.2719370939999948, 'epochs': 29, 'cpu_infer_year_s': 0.008290050999999465, 'test_mae': 268.2809777216512, 'test_rmse': 389.7471208683846, 'test_mape': 0.9215984498027654, 'test_mae_noise3': 269.61156407617307, 'n_params': 29}
+/usr/local/lib/python3.13/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+lgbm seed 1 {'seed': 1, 'cpu_train_s': 0.4365512039999997, 'wall_train_s': 0.23154855399999974, 'epochs': 27, 'cpu_infer_year_s': 0.00872150699999974, 'test_mae': 267.09049202590376, 'test_rmse': 388.8282957166693, 'test_mape': 0.9174507406435772, 'test_mae_noise3': 268.9055773920254, 'n_params': 27}
+/usr/local/lib/python3.13/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+lgbm seed 2 {'seed': 2, 'cpu_train_s': 0.4235521679999996, 'wall_train_s': 0.22156341000000168, 'epochs': 23, 'cpu_infer_year_s': 0.007833092000000264, 'test_mae': 266.9202999082232, 'test_rmse': 388.9666478817111, 'test_mape': 0.9170265074944142, 'test_mae_noise3': 268.8134036140909, 'n_params': 23}
+/usr/local/lib/python3.13/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+lgbm seed 3 {'seed': 3, 'cpu_train_s': 0.5234966640000005, 'wall_train_s': 0.2743966010000065, 'epochs': 26, 'cpu_infer_year_s': 0.008944570000000596, 'test_mae': 266.68444635653196, 'test_rmse': 388.2406473851088, 'test_mape': 0.9157522027456468, 'test_mae_noise3': 268.375686559906, 'n_params': 26}
+/usr/local/lib/python3.13/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+lgbm seed 4 {'seed': 4, 'cpu_train_s': 0.5132002710000005, 'wall_train_s': 0.2702928460000038, 'epochs': 21, 'cpu_infer_year_s': 0.007628146000000058, 'test_mae': 266.6251395569516, 'test_rmse': 388.63703715438703, 'test_mape': 0.9160627717234027, 'test_mae_noise3': 267.908870123044, 'n_params': 21}

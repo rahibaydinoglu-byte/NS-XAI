@@ -1,0 +1,11 @@
+transformer {'d': 16, 'layers': 1} val MAE 1618.0  cpu 31.3s
+transformer {'d': 16, 'layers': 2} val MAE 1598.8  cpu 51.9s
+transformer {'d': 32, 'layers': 1} val MAE 1566.9  cpu 165.7s
+transformer {'d': 32, 'layers': 2} val MAE 1565.9  cpu 70.5s
+transformer {'d': 64, 'layers': 1} val MAE 1620.0  cpu 32.4s
+transformer {'d': 64, 'layers': 2} val MAE 1621.7  cpu 103.4s
+transformer seed 0 {'seed': 0, 'cpu_train_s': 72.13486734999998, 'wall_train_s': 37.36668233099999, 'epochs': 19, 'cpu_infer_year_s': 0.3144288120000738, 'test_mae': 1563.2359785214433, 'test_rmse': 2326.950124352447, 'test_mape': 5.439466991298829, 'test_mae_noise3': 1665.9986486715613, 'n_params': 41345}
+transformer seed 1 {'seed': 1, 'cpu_train_s': 65.77456825299998, 'wall_train_s': 33.36923546300022, 'epochs': 18, 'cpu_infer_year_s': 0.2639923290000752, 'test_mae': 1577.0340368970421, 'test_rmse': 2341.340175920061, 'test_mape': 5.457542726428697, 'test_mae_noise3': 1675.246725479777, 'n_params': 41345}
+transformer seed 2 {'seed': 2, 'cpu_train_s': 67.157580661, 'wall_train_s': 34.10784387300009, 'epochs': 20, 'cpu_infer_year_s': 0.3438317330000018, 'test_mae': 1554.6499989428592, 'test_rmse': 2305.957610947913, 'test_mape': 5.322033750546618, 'test_mae_noise3': 1648.4620283201632, 'n_params': 41345}
+transformer seed 3 {'seed': 3, 'cpu_train_s': 52.674526047000086, 'wall_train_s': 26.885077227999773, 'epochs': 14, 'cpu_infer_year_s': 0.3298840410000139, 'test_mae': 1555.3599962003998, 'test_rmse': 2299.2728577749335, 'test_mape': 5.336830390402899, 'test_mae_noise3': 1639.53539500772, 'n_params': 41345}
+transformer seed 4 {'seed': 4, 'cpu_train_s': 57.35087984400002, 'wall_train_s': 29.12305259699997, 'epochs': 15, 'cpu_infer_year_s': 0.27217503399992893, 'test_mae': 1536.0892600385441, 'test_rmse': 2278.3523086823516, 'test_mape': 5.259203300445474, 'test_mae_noise3': 1643.555458652923, 'n_params': 41345}
