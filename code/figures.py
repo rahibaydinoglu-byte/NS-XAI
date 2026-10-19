@@ -21,7 +21,7 @@ S = {t: json.load(open(os.path.join(R[t], "summary.json"))) for t in T}
 fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.8), gridspec_kw=dict(width_ratios=[1.25, 1]))
 t = T["A"]; comp = pd.DataFrame({"Search": t.cpu_hpo, "Retraining (12×)": 12 * t.cpu_train,
                                  "Inference (365×)": 365 * t.cpu_infer_day, "Explanation (365×)": 365 * t.cpu_xai_day}).loc[MODELS]
-ax = axes[0]; y = np.arange(len(MODELS)); ax.barh(y, comp.sum(1) / 3600, color="#9ec5f4", height=0.6)
+ax = axes[0]; y = np.arange(len(MODELS)); ax.barh(y, comp.sum(1) / 3600, color="#8c8c8c", height=0.6)
 for i, m in enumerate(MODELS): ax.text(comp.sum(1)[m] / 3600 * 1.15, i, f"{comp.sum(1)[m]/3600:.2g} h", va="center", fontsize=7, color="#222")
 ax.set_xscale("log"); ax.set_yticks(y); ax.set_yticklabels([LAB[m] for m in MODELS]); ax.invert_yaxis()
 ax.set_xlabel("Annual AI-side CPU time (core-hours, log scale)"); ax.set_title("(a) Total burden, Task A", loc="left", fontsize=8.5)
@@ -62,7 +62,7 @@ for ax, (tk, t) in zip(axes, T.items()):
     for m in MODELS:
         ax.errorbar(t.loc[m, "C_kg_mode"] * 1000, t.loc[m, "mae"], yerr=t.loc[m, "mae_sd"], fmt=MRK[m], color=COL[m], ms=6,
                     mec="white", mew=0.8, capsize=2, elinewidth=0.8, zorder=3)
-        OFF = dict(A=dict(ridge=(5, 4), tsk8=(-18, 9), tsk=(6, 4), lgbm=(-8, -13), mlp=(4, 6), transformer=(4, -11), lstm=(5, 4)),
+        OFF = dict(A=dict(ridge=(5, 4), tsk8=(-30, 7), tsk=(6, 5), lgbm=(-8, -13), mlp=(4, 6), transformer=(4, -11), lstm=(5, 4)),
                    B=dict()).get(tk, {})
         ax.annotate(LAB[m] + ("*" if m in pf else ""), (t.loc[m, "C_kg_mode"] * 1000, t.loc[m, "mae"]), xytext=OFF.get(m, (5, 3)),
                     textcoords="offset points", fontsize=6.8, color="#222")
