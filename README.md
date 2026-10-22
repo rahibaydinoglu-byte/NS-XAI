@@ -4,6 +4,8 @@ Code and results for the manuscript
 
 > R. Imamguluyev, *Net-sustainability assessment of explainable AI models for energy systems: a fuzzy benefit–cost framework with break-even scale analysis and a load-forecasting case study* (submitted to *Sustainable Computing: Informatics and Systems*, 2026).
 
+>Preprint: [SSRN, doi:10.2139/ssrn.7650216](https://doi.org/10.2139/ssrn.7650216) · Code archive: [Zenodo, doi:10.5281/zenodo.23472050](https://doi.org/10.5281/zenodo.23472050)
+
 The repository reproduces every number, table and figure of the case study: day-ahead hourly load forecasting for Spain (ENTSO-E, 2015–2018) with seven models (ridge, TSK-8, TSK-32, LightGBM, MLP, LSTM, Transformer), measured CPU time of hyper-parameter search, training, inference and explanation, hourly carbon intensity, the fuzzy SBCR / break-even-scale / possibility–necessity analysis, and the statistical tests.
 
 ## Contents
